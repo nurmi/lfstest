@@ -26,7 +26,7 @@ jobs:
 
       - name: test thing
         run: |
-          date > lfsfiles/CVE-2020-25695.json
+          date > lfsfiles/test.json
 
       - name: Commit new results
         run: |
