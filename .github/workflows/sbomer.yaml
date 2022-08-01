@@ -26,7 +26,7 @@ jobs:
 
       - name: test thing
         run: |
-          echo "PING" >> lfsfiles/CVE-2020-25695.json
+          date > lfsfiles/CVE-2020-25695.json
 
       - name: Commit new results
         run: |
